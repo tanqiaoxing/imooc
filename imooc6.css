@@ -493,13 +493,53 @@ span{
     background-position:center -144px;
 }
 
-
-
-
-
-
-
-
+/* 实战推荐 */
+#main>.bgfff{
+    box-shadow:0 2px 8px 0 rgba(7,17,27,.06);
+}
+.bgfff{
+    background-color:#fff!important;
+}
+.container-types{
+    width:1152px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:36px 0 48px;
+}
+.container-types .types-title{
+    position:relative;
+    font-size:14px;
+    color:#93999F;
+    letter-spacing:.6px;
+    line-height:36px;
+    text-align:center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight:400;
+}
+.container-types .types-title span.icon-shizhan-1{
+    background-position:center 0;
+}
+.container-types .types-title .tit-icon-1{
+    margin-right:24px;
+}
+.container-types .types-title .tit-icon{
+    display:inline-block;
+    vertical-align:bottom;
+    width:56px;
+    height:36px;
+    background:url(http://www.imooc.com/static/img/index/icon.png) no-repeat;
+    background-size:100%;
+}
+.container-types .types-title em{
+    font-size:20px;
+    font-weight:600;
+    color:#4D555D;
+    margin:0 3px;
+}
+em{
+    font-style:normal;
+}
 
 
 
