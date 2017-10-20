@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>实战课程</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+   <!--  <link href="D:\javascript\Font-Awesome-3.2.1\css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="D:\javascript\imooc6_combat.css">
+    <script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="D:\javascript\imooc6_combat.js"></script>
+</head>
+<body>
+	<div class="page-container" id="nav">
+		<div class="logo">
+			<a href="D:\javascript\imooc6.html" target="_self" title="首页">
+			</a>
+		</div>
+		<div class="l">
+			<ul class="nav-item l">
+			<li>
+				<a href="D:\javascript\imooc6_course_list.html" target="_blank">课程</a>
+			</li>
+			<li>
+				<a href="D:\javascript\imooc6_class.html" target="_blank">职业路径</a>
+			</li>
+			<li>
+				<a href="D:\javascript\imooc6_combat.html" target="_blank" class="combat-title">实战</a>
+			</li>
+			<li>
+				<a href="D:\javascript\imooc6_question.html" target="_blank">猿问</a>
+			</li>
+			<li>
+				<a href="D:\javascript\imooc6_article.html" target="_blank">手记</a>
+			</li>
+		</ul>
+		</div>
+		<div class="search-wrap">
+			<div class="search-tags">
+				<a href="#" target="_blank">前端入门</a>
+				<a href="#" target="_blank">Java入门</a>
+			</div>
+			<div class="search-area">
+				<input type="text" class="search-input" />
+		    </div>
+		    <div class="search-icon">
+		    	<i class="fa fa-search"></i>
+		    </div>
+		</div>
+		<div id="login-area">
+			<ul class="header-unlogin">
+				<li class="app-load">
+					<a href="#" target="_blank">下载APP</a>
+				</li>
+				<li class="shop-cart">
+				    <a href="#" class="shop-cart-icon" target="_blank">
+                        <span class="fa fa-shopping-cart"></span>
+                        <span>购物车</span>
+				    </a>
+				</li>
+				<li class="unlogin">
+					<a href="javascript:;" class="signin-btn" target="_blank">登录</a>
+					/
+					<a href="javascript:;" class="signup-btn" target="_blank">注册</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- banner -->
+	<div class="program-banner">
+		<div class="banner-box">
+			<a class="banner-left" style="background-image: url(http://img1.sycdn.imooc.com/59e4558a000152bf05900120.jpg">
+				<!-- <h1>2017最强热门新技术全搜罗</h1>
+				<span>一大波新技术正向你袭来，落后就面临淘汰！</span> -->
+			</a>
+			<a class="banner-right" style="background-image: url(http://img2.sycdn.imooc.com/59e5dbb600017c7905900120.jpg">
+
+				<!-- <h1>Python工程师找工作的必修课程</h1>
+				<span>Python的分布式爬虫、Web框架、强化训练等等专题实践</span> -->
+			</a>
+		</div>
+	</div>
+	<div class="index-main">
+		<div class="nav-sort clearfix">
+			<div class="sort-direction">
+				<span>按方向:</span>
+				<div class="sort-direction-detail ">
+					<ul>
+						<li class="sort-li on">
+							<a href="#" class="sort-all ">全部</a>
+						</li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">前端开发</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">后端开发</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">移动开发</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">数据库</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">云计算&大数据</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">运维&测试</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">人工智能</a>
+                        </li>
+					</ul>
+				</div>
+			</div>
+			<div class="sort-hot">
+				<span>热门分类:</span>
+				<div class="sort-hot-detail">
+					<ul>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">HTML/CSS</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">JavaScript</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">jQuery</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">Node.js</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">AngularJS</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">React.JS</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">Vue.js</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">WebApp</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">ThinkPHP</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">PHP</a>
+                        </li>
+						<li class="sort-li">
+                        	<a href="#" class="sort-detail">Yii</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">Java</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">SpringBoot</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">Python</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">C++</a>
+                        </li>
+                         <li class="sort-li">
+                        	<a href="#" class="sort-detail">算法</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">Android</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">iOS</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">大数据</a>
+                        </li>
+                        <li class="sort-li">
+                        	<a href="#" class="sort-detail">测试</a>
+                        </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

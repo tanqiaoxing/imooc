@@ -26,7 +26,7 @@ window.onload=function bannerSlide(){
             banner[0].style.display="block";
             banner[0].style.opacity="1";
             banner[i].style.opacity="0";
-           
+
             setTimeout(function(){
                 banner[i].style.display="none";
                 banner[i].style.zIndex="1";
@@ -42,10 +42,10 @@ window.onload=function bannerSlide(){
             banner_dot[i+1].style.border="1px solid rgba(7,17,27,.8)";
             banner_dot[i].style.background="rgba(7,17,27,.8)";
             banner_dot[i].style.border="1px solid rgba(255,255,255,.6)";
-            setTimeout(function(){            
+            setTimeout(function(){
                 banner[i].style.display="none";
                 banner[i].style.zIndex="1";
-                banner[i+1].style.zIndex="6";             
+                banner[i+1].style.zIndex="6";
                 i++;
             },500)
         }

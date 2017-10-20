@@ -30,7 +30,7 @@ body{
     display:block;
     height:72px;
     width:140px;
-    background:url(http:/www.imooc.com/static/img/common/logo.png?t=2.4) center center no-repeat;
+    background:url(http://www.imooc.com/static/img/common/logo.png?t=2.4) center center no-repeat;
     text-indent:100%;
     overflow:hidden;
 }
@@ -77,6 +77,10 @@ ul, menu, dir{
     font-size:16px;
     height:72px;
     line-height:72px;
+}
+
+.nav-item .course-title {
+    color: #fff;
 }
 
 .nav-item li>a:hover{
